@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     function displayWeatherData(data) {
         const { name, main, weather, wind, visibility, sys } = data;
-        temperature.textContent = `${main.temp} °C`;
+        temperature.textContent = `${main.temp}°C`;
         humidity.textContent = `${main.humidity}%`;
         windSpeed.textContent = `${wind.speed} m/s`;
         pressure.textContent = `${main.pressure} hPa`;
