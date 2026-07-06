@@ -84,7 +84,7 @@ This project uses the **OpenWeather API**.
 3. Open `script.js` and replace:
 
 ```javascript
-const API_KEY = "YOUR_API_KEY";
+const API_KEY = "OPENWEATHER_API_KEY";
 ```
 
 with your own API key.
