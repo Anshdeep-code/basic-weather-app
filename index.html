@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form>
+        <div class="description">
+            <h2>Weather App</h2>
+            <p>Get real-time weather updates</p>
+        </div>
+        <div class="weather-input">
+            <input type="text" class="city-input" id="city-input" placeholder="Enter city name...">
+            <button type="button" class="weather-btn" id="weather-btn">
+                <span class="btn-content">
+                    <img src="./Icons/search.svg" alt="Search icon" class="search-icon">
+                    <span>Get Weather</span>
+                </span>
+            </button>
+        </div>
+
+
+        <div class="weather-info" id="weather-info">
+            <div class="weather-design">
+
+                <div class="weather-left">
+                    <div class="city-info" id="city-info">
+                        <h2 class="city-name" id="city-name"></h2>
+                        <span class="country-name" id="country-name"></span>
+                    </div>
+                    <div class="temp-kind">
+                        <h1 id="temperature"></h1>
+                        <p id="weather-description"></p>
+                    </div>
+                </div>
+                <div class="weather-icon-box">
+                    <img id="weather-icon" alt="Weather icon" src="" />
+                </div>
+            </div>
+            <div class="weather-stats">
+                <div class="stat-card">
+                    <img src="./Icons/humidity.svg" alt="Humidity icon">
+                    <div>
+                        <p class="weather-detail">Humidity</p>
+                        <h3 id="humidity"></h3>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <img src="./Icons/wind.svg" alt="Wind icon">
+                    <div>
+                        <p class="weather-detail">Wind Speed</p>
+                        <h3 id="wind-speed"></h3>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <img src="./Icons/pressure.svg" alt="Pressure icon">
+                    <div>
+                        <p class="weather-detail">Pressure</p>
+                        <h3 id="pressure"></h3>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <img src="./Icons/visibility.svg" alt="Visibility icon">
+                    <div>
+                        <p class="weather-detail">Visibility</p>
+                        <h3 id="visibility"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p id="error-message" class="hidden">City not found. Please try again.</p>
+    </form>
+</body>
+
+</html>
