@@ -4,7 +4,8 @@ A simple and responsive Weather App built using **HTML**, **CSS**, and **Vanilla
 
 ## 📸 Preview
 
-<img width="922" height="477" alt="image" src="https://github.com/user-attachments/assets/42912075-428f-4346-ad3a-d0fb9cf6531f" />
+<img width="1917" height="873" alt="image" src="https://github.com/user-attachments/assets/5896f3da-f1b9-40d2-a458-d8e7f56e0172" />
+
 
 
 ---
